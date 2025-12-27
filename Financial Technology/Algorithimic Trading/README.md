@@ -69,14 +69,13 @@ Source files to reproduce content:
 
 ![alt text](summary.png)
 
-Slide 3 — Conclusion & Training snapshot
+Slide 2 — Findings
 ----------------------------------------
-File: presentation/Screenshot 2025-08-27 140548.png
 
 Contents:
-- Heading: Conclusion
-- Training log snapshot: key counters and hyperparameters (FPS, iterations, total_timesteps, learning_rate, clip_range, loss values)
-- Short conclusion paragraph and recommended next steps
+- Heading: Findings
+- Short paragraphs of findings
+- Power BI snapshot: charts: Avg (Bull (waterfall), bear (waterfall), Close (line), Open (card), Volueme (pie) )
 
 ![alt text](findings.png)
 
