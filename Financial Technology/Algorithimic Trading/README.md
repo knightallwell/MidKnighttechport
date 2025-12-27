@@ -1,12 +1,14 @@
 # Algorithmic Trading with PPO — Backend
 ---
 
-## Quick project summary (what the service does)
+## Quick project summary 
 
 * Trains an **autonomous trading agent** using **Proximal Policy Optimization (PPO)** to make buy/sell/hold decisions for the Top-10 S\&P 500 tickers (Mar/2025 snapshot).
 * Provides scheduled data ingestion, training, and an **inference REST API** for real-time or paper trading.
 * Produces evaluation CSVs and visual assets that are consumed by Power BI to generate the PowerPoint-style project summary.
-![alt text](chart.png)
+
+---
+![alt text](Chart.png)
 
 ---
 
@@ -48,7 +50,7 @@ Contents:
 - Prepared for: elites
 - Decorative: grayscale skyline image; red gradient header and footer bars
 
-![alt text](intro.png)
+![alt text](Intro.png)
 ____
 
 Slide 2 — Executive summary
@@ -69,13 +71,21 @@ Source files to reproduce content:
 
 ![alt text](summary.png)
 
+<<<<<<< HEAD
 Slide 2 — Findings
+=======
+Slide 3 — Findings
+>>>>>>> 936326a97251c70549d81a2a86e621a3786d00a0
 ----------------------------------------
 
 Contents:
 - Heading: Findings
 - Short paragraphs of findings
 - Power BI snapshot: charts: Avg (Bull (waterfall), bear (waterfall), Close (line), Open (card), Volueme (pie) )
+<<<<<<< HEAD
+=======
+
+>>>>>>> 936326a97251c70549d81a2a86e621a3786d00a0
 
 ![alt text](findings.png)
 
@@ -87,16 +97,15 @@ Apple has also remained a dominant force in trading, consistently leading in bul
 
 ____
 
-Slide 3 — Conclusion & Training snapshot
+Slide 4 — Conclusion & Training snapshot
 ----------------------------------------
-File: presentation/Screenshot 2025-08-27 140548.png
 
 Contents:
 - Heading: Conclusion
 - Training log snapshot: key counters and hyperparameters (FPS, iterations, total_timesteps, learning_rate, clip_range, loss values)
 - Short conclusion paragraph and recommended next steps
 
-![alt text](conclusion.png)
+![alt text](Conclusion.png)
 
 These market values are essential considerations when making trade decisions, as the data comes from reliable sources and is drawn from the inception of each company.
 
